@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         synth.cancel();
         playPauseButtons.forEach((btn) => {
           let icon = btn.querySelector(".playPauseIcon");
-          icon.src = "../src/assets/image/sound-on-svgrepo-com.svg";
+          icon.src = "../assets/image/sound-on-svgrepo-com.svg";
         });
         isSpeaking = false;
       } else {
@@ -62,18 +62,18 @@ document.addEventListener("DOMContentLoaded", function () {
     let utterance = new SpeechSynthesisUtterance(texto);
     utterance.lang = "pt-BR";
     utterance.onend = function () {
-      img.src = "../src/assets/image/sound-on-svgrepo-com.svg";
+      img.src = "../assets/image/sound-on-svgrepo-com.svg";
       isSpeaking = false;
     };
 
     utterance.onerror = function () {
       // Adicionado para tratar possíveis erros
-      img.src = "../src/assets/image/sound-on-svgrepo-com.svg";
+      img.src = "../assets/image/sound-on-svgrepo-com.svg";
       isSpeaking = false;
     };
 
     synth.speak(utterance);
-    img.src = "../src/assets/image/sound-off-svgrepo-com.svg";
+    img.src = "../assets/image/sound-off-svgrepo-com.svg";
     isSpeaking = true;
     currentUtterance = utterance;
   }
