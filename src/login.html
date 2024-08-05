@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/assets/css/reset.css" />
+    <link rel="stylesheet" href="../src/assets/css/login.css" />
+    <link rel="shortcut icon" href="assets/image/favicon.png" />
+    <title>Meu Acompanhante Seguro - Login</title>
+  </head>
+  <body>
+    <main class="login">
+      <section class="esquerda">
+        <figure>
+          <img src="assets/image/logo-meu-acompanhante-seguro-login.png" alt="">
+        </figure>
+      </section>
+      <section class="direita">
+        <form action="/login" method="POST">
+          <div class="input-container">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-container">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit" class="login-button">Entrar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    transition: background-color 1s, color 1s, background-image 1s; /* Adiciona transição ao body */
+}
+
+h2, p, .cabecalho, .aviso, .titulo h2, .orientacoesTexto, .orientacoesTextoIndex, .footer, .senac, .tituloOrientacoes, .linkFooter {
+    transition: color 1s, background-color 1s, background-image 1s, text-shadow 1s; /* Adiciona transição aos elementos */
+}
+
+body.dark {
+    background-image: linear-gradient(rgb(15, 29, 28, 0.8), rgb(15, 29, 28, 0.8)), url(../image/bg-corredor-hospital.jpg);
+    background-color: #020202;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+body.dark h2,
+body.dark p {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+body.dark .cabecalho {
+    background-image: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+body.dark .aviso {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+    text-shadow: none;
+}
+
+body.dark .titulo h2 {
+    color: #00928d;
+}
+
+body.dark #opcoes-menu > li > a {
+    color: #ffffff;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+  
+body.dark #opcoes-menu > li > a:hover {
+    color: #077262;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+body.dark .orientacoesTexto {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+body.dark .orientacoesTextoIndex {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+body.dark .listaAlunos {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+body.dark .listaAlunos > ul {
+    color: #ffffff;
+}
+
+body.dark .footer {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+body.dark .senac {
+    background: linear-gradient(rgb(27, 70, 67, 0.5), rgba(16, 30, 29, 0.8));
+}
+
+body.dark .tituloOrientacoes {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
+@media screen and (max-width: 428px) {
+    body.dark .linkFooter {
+        background: linear-gradient(rgb(27, 70, 67, 0.4), rgba(16, 30, 29, 0.2));
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body.dark .linkFooter {
+        background: linear-gradient(rgb(27, 70, 67, 0.4), rgba(16, 30, 29, 0.2));
+    }
+}
