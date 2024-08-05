@@ -227,6 +227,21 @@ body {
   position: relative;
 }
 
+.tituloOrientacoesQuemSomos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 1320px;
+  background-color: #00cec8;
+  color: #05473D;
+  margin-bottom: 50px;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
 .tituloOrientacoes h2 {
   font-size: 2em;
   text-align: center;
@@ -255,6 +270,7 @@ body {
   padding: 50px;
   border-radius: 20px;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .listaAlunos h2 {
@@ -740,6 +756,39 @@ a:focus {
     text-indent: 40px;
   }
   
+  .tituloOrientacoesQuemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 1190px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .tituloOrientacoesQuemSomos h2 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+  
+  .tituloOrientacoesQuemSomos p {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.3;
+    text-indent: 40px;
+  }
+
   .listaAlunos {
     display: flex;
     flex-direction: column;
@@ -747,9 +796,9 @@ a:focus {
     width: 1190px;
     background-color: #00cec8;
     color: #05473D;
-    padding: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
     border-radius: 20px;
-    position: relative;
   }
   
   .listaAlunos h2 {
@@ -1182,6 +1231,41 @@ a:focus {
     text-shadow: 2px 2px 4px #ffffff;
   }
 
+  .tituloOrientacoesQuemSomos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 418px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .tituloOrientacoesQuemSomos h2 {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+
+  .listaAlunos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 418px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin: 5px 0;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+  }
+
   .orientacoesTextoIndex h2 {
     font-size: 2em;
     text-align: center;
@@ -1606,6 +1690,28 @@ a:focus {
     margin-bottom: 20px;
   }
 
+  .tituloOrientacoesQuemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 404px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .tituloOrientacoesQuemSomos h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+
   .orientacoes {
     display: flex;
     flex-direction: column-reverse;
@@ -1992,6 +2098,29 @@ a:focus {
     line-height: 1.3;
     margin-bottom: 20px;
   }
+
+  .tituloOrientacoesQuemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 383px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .tituloOrientacoesQuemSomos h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+
 
   .orientacoes {
     display: flex;
@@ -2390,6 +2519,28 @@ a:focus {
     text-align: justify;
     line-height: 1.3;
     margin-bottom: 20px;
+  }
+
+  .tituloOrientacoesQuemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 365px;
+    background-color: #00cec8;
+    color: #05473D;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .tituloOrientacoesQuemSomos h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px #ffffff;
   }
 
   .orientacoes {
