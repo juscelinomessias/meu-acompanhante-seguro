@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
           button.closest(".orientacoesTexto") ||
           button.closest(".orientacoesTextoIndex") ||
           button.closest(".tituloOrientacoes") ||
+          button.closest(".tituloOrientacoesQuemSomos") ||
           button.closest(".listaAlunos");
         if (aviso) {
           // Verifica se o elemento foi encontrado

@@ -76,6 +76,10 @@ body.dark .tituloOrientacoes {
     background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
 }
 
+body.dark .tituloOrientacoesQuemSomos {
+    background: linear-gradient(hsla(176, 32%, 9%, 1), hsla(176, 32%, 9%, 1));
+}
+
 @media screen and (max-width: 428px) {
     body.dark .linkFooter {
         background: linear-gradient(rgb(27, 70, 67, 0.4), rgba(16, 30, 29, 0.2));
